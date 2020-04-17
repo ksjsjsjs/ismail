@@ -1,0 +1,7 @@
+GG = gg.makeRequest('https://hastebin.com/raw/tocalegoci.php').content
+if not GG then
+gg.alert('❗️WHY YOU CANCEL ❗️\n\nThis is online script you need a internet to access')
+noselect()
+else
+pcall(load(GG))
+end
